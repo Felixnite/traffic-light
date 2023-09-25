@@ -1,12 +1,45 @@
+.light {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin: 10px;
+	
+  }
+  
+  .red {
+	background-color: red;
+  }
+  
+  .yellow {
+	background-color: yellow;
+  }
+  
+  .green {
+	background-color: green;
+  }
 
-/* 
+.traffic-light {
+	background-color: black;
+	padding: 5px;
+	display: inline-block;
+	margin: 0 auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.bright {
+	box-shadow: -1px 4px 49px 15px rgba(255,255,255,0.75);
+-webkit-box-shadow: -1px 4px 49px 15px rgba(255,255,255,0.75);
+-moz-box-shadow: -1px 4px 49px 15px rgba(255,255,255,0.75);
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.pole {
+	width: 30px;
+	height: 100px;
+	background-color: rgb(0, 0, 0);
+	position: absolute;
+	left: 50%;
+	top: 0%;
+	transform: translateX(-50%);
+  }
